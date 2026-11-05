@@ -1,0 +1,10 @@
+{
+  "math": ["abs(x)", "acos(x)", "asin(x)", "atan(x)", "atan2(y, x)", "ceil(x)", "clamp(x, min, max)", "cos(x)", "deg(x)", "exp(x)", "floor(x)", "fmod(x, y)", "log(x, base)", "max(...)", "min(...)", "modf(x)", "noise(x, y, z)", "pow(x, y)", "rad(x)", "random(min, max)", "randomseed(seed)", "round(x)", "sign(x)", "sin(x)", "sqrt(x)", "tan(x)"],
+  "string": ["byte(s, i, j)", "char(...)", "find(s, pattern, init, plain)", "format(format, ...)", "gmatch(s, pattern)", "gsub(s, pattern, replacement)", "len(s)", "lower(s)", "match(s, pattern, init)", "rep(s, count, separator)", "reverse(s)", "split(s, separator)", "sub(s, i, j)", "upper(s)"],
+  "table": ["clear(t)", "clone(t)", "concat(t, separator, i, j)", "create(size, value)", "find(t, value, init)", "freeze(t)", "insert(t, position, value)", "isfrozen(t)", "move(source, first, last, target, destination)", "pack(...)", "remove(t, position)", "sort(t, compare)", "unpack(t, first, last)"],
+  "coroutine": ["create(fn)", "isyieldable()", "resume(thread, ...)", "running()", "status(thread)", "wrap(fn)", "yield(...)"],
+  "os": ["clock()", "date(format, timestamp)", "difftime(t2, t1)", "time(date)"],
+  "utf8": ["char(...)", "codepoint(s, first, last)", "codes(s)", "len(s, first, last)", "offset(s, count, position)"],
+  "bit32": ["arshift(n, displacement)", "band(...)", "bnot(n)", "bor(...)", "btest(...)", "bxor(...)", "countlz(n)", "countrz(n)", "extract(n, field, width)", "lrotate(n, displacement)", "lshift(n, displacement)", "replace(n, value, field, width)", "rrotate(n, displacement)", "rshift(n, displacement)"],
+  "buffer": ["create(size)", "fromstring(s)", "tostring(b)", "len(b)", "readu8(b, offset)", "readi8(b, offset)", "readu16(b, offset)", "readi16(b, offset)", "readu32(b, offset)", "readi32(b, offset)", "readf32(b, offset)", "readf64(b, offset)", "writeu8(b, offset, value)", "writeu16(b, offset, value)", "writeu32(b, offset, value)", "writef32(b, offset, value)", "writef64(b, offset, value)", "readstring(b, offset, count)", "writestring(b, offset, value)", "copy(target, targetOffset, source, sourceOffset, count)", "fill(b, offset, value, count)"]
+}

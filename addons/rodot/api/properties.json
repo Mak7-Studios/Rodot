@@ -1,0 +1,22 @@
+{
+  "Name": {"kind": "native", "property": "name"},
+  "Parent": {"kind": "parent"},
+  "ClassName": {"kind": "class", "readonly": true},
+  "Position": {"kind": "position"},
+  "CFrame": {"kind": "transform"},
+  "Orientation": {"kind": "native", "property": "rotation_degrees"},
+  "Size": {"kind": "size"},
+  "Color": {"kind": "color"},
+  "Transparency": {"kind": "transparency"},
+  "Anchored": {"kind": "native", "property": "freeze"},
+  "CanCollide": {"kind": "collision"},
+  "AssemblyLinearVelocity": {"kind": "native", "property": "linear_velocity"},
+  "AssemblyAngularVelocity": {"kind": "native", "property": "angular_velocity"},
+  "Mass": {"kind": "native", "property": "mass"},
+  "Visible": {"kind": "native", "property": "visible"},
+  "Text": {"kind": "native", "property": "text"},
+  "Brightness": {"kind": "native", "property": "light_energy"},
+  "Range": {"kind": "native", "property": "omni_range"},
+  "FieldOfView": {"kind": "native", "property": "fov"},
+  "Value": {"kind": "value"}
+}

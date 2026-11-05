@@ -1,0 +1,8 @@
+{
+  "ReplicatedStorage": {"node": "Node", "detached": true},
+  "ServerStorage": {"node": "Node", "detached": true},
+  "ReplicatedFirst": {"node": "Node", "detached": true},
+  "StarterGui": {"node": "Node", "detached": true},
+  "StarterPack": {"node": "Node", "detached": true},
+  "Lighting": {"node": "DirectionalLight3D", "detached": false}
+}

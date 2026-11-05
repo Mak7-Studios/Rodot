@@ -1,0 +1,225 @@
+{
+  "Instance": {
+    "node": "Node",
+    "script": "res://addons/rodot/runtime/instance.gd"
+  },
+  "Decal": {
+    "node": "Node3D",
+    "script": "res://addons/rodot/runtime/decal.gd",
+    "members": {
+      "Face": "EnumItem",
+      "Texture": "string",
+      "Color3": "Color3",
+      "Color": "Color3",
+      "Transparency": "number"
+    }
+  },
+  "Folder": {
+    "node": "Node"
+  },
+  "Model": {
+    "node": "Node3D"
+  },
+  "Part": {
+    "node": "RigidBody3D",
+    "script": "res://addons/rodot/runtime/part.gd",
+    "members": {
+      "Shape": "EnumItem",
+      "Material": "EnumItem",
+      "MaterialVariant": "string",
+      "CanTouch": "boolean",
+      "CanQuery": "boolean",
+      "CastShadow": "boolean",
+      "CollisionGroup": "string",
+      "Locked": "boolean",
+      "Reflectance": "number",
+      "LocalTransparencyModifier": "number",
+      "PivotOffset": "CFrame",
+      "Rotation": "Vector3",
+      "Velocity": "Vector3",
+      "RotVelocity": "Vector3",
+      "AssemblyMass": "number",
+      "AssemblyCenterOfMass": "Vector3",
+      "AssemblyRootPart": "BasePart",
+      "CenterOfMass": "Vector3",
+      "CurrentPhysicalProperties": "PhysicalProperties",
+      "CustomPhysicalProperties": "PhysicalProperties",
+      "ExtentsSize": "Vector3",
+      "ExtentsCFrame": "CFrame",
+      "Origin": "CFrame",
+      "Mass": "number"
+    }
+  },
+  "Camera": {
+    "node": "Camera3D"
+  },
+  "PointLight": {
+    "node": "OmniLight3D"
+  },
+  "SpotLight": {
+    "node": "SpotLight3D"
+  },
+  "ScreenGui": {
+    "node": "CanvasLayer"
+  },
+  "Frame": {
+    "node": "Panel"
+  },
+  "TextLabel": {
+    "node": "Label"
+  },
+  "TextButton": {
+    "node": "Button"
+  },
+  "StringValue": {
+    "node": "Node",
+    "value": ""
+  },
+  "NumberValue": {
+    "node": "Node",
+    "value": 0
+  },
+  "IntValue": {
+    "node": "Node",
+    "value": 0
+  },
+  "BoolValue": {
+    "node": "Node",
+    "value": false
+  },
+  "ObjectValue": {
+    "node": "Node",
+    "value": null
+  },
+  "Vector3Value": {
+    "node": "Node",
+    "value": {
+      "__type": "Vector3",
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "Color3Value": {
+    "node": "Node",
+    "value": {
+      "__type": "Color3",
+      "R": 1,
+      "G": 1,
+      "B": 1
+    }
+  },
+  "Script": {
+    "node": "Node",
+    "script": "res://addons/rodot/runtime/script.gd",
+    "members": {
+      "Enabled": "boolean",
+      "Disabled": "boolean",
+      "RunContext": "EnumItem",
+      "Source": "string",
+      "SourcePath": "string"
+    }
+  },
+  "ModuleScript": {
+    "node": "Node",
+    "script": "res://addons/rodot/runtime/module_script.gd",
+    "members": {
+      "Source": "string",
+      "SourcePath": "string"
+    }
+  },
+  "ParticleEmitter": {
+    "node": "Node3D",
+    "script": "res://addons/rodot/runtime/particle_emitter.gd",
+    "members": {
+      "EmissionDirection": "EnumItem",
+      "Shape": "EnumItem",
+      "ShapeStyle": "EnumItem",
+      "ShapeInOut": "EnumItem",
+      "Lifetime": "NumberRange",
+      "Speed": "NumberRange",
+      "Rotation": "NumberRange",
+      "RotSpeed": "NumberRange",
+      "Size": "NumberSequence",
+      "Squash": "NumberSequence",
+      "Transparency": "NumberSequence",
+      "Color": "ColorSequence",
+      "Texture": "string",
+      "Rate": "number",
+      "Enabled": "boolean",
+      "Acceleration": "Vector3",
+      "SpreadAngle": "Vector2",
+      "Drag": "number",
+      "Brightness": "number",
+      "LockedToPart": "boolean",
+      "TimeScale": "number",
+      "VelocityInheritance": "number",
+      "ZOffset": "number",
+      "LocalTransparencyModifier": "number",
+      "LightInfluence": "number"
+    }
+  },
+  "Attachment": {
+    "node": "Node3D",
+    "script": "res://addons/rodot/runtime/attachment.gd",
+    "members": {
+      "WorldCFrame": "CFrame",
+      "WorldPosition": "Vector3",
+      "WorldOrientation": "Vector3",
+      "Axis": "Vector3",
+      "SecondaryAxis": "Vector3",
+      "WorldAxis": "Vector3",
+      "WorldSecondaryAxis": "Vector3"
+    }
+  },
+  "Sound": {
+    "node": "Node3D",
+    "script": "res://addons/rodot/runtime/sound.gd",
+    "members": {
+      "SoundId": "string",
+      "Volume": "number",
+      "PlaybackSpeed": "number",
+      "Looped": "boolean",
+      "IsLoaded": "boolean",
+      "Playing": "boolean",
+      "IsPlaying": "boolean",
+      "TimePosition": "number",
+      "TimeLength": "number",
+      "RollOffMaxDistance": "number",
+      "Autoplay": "boolean"
+    }
+  },
+  "Beam": {
+    "node": "MeshInstance3D",
+    "script": "res://addons/rodot/runtime/beam.gd",
+    "members": {
+      "Width0": "number",
+      "Width1": "number",
+      "CurveSize0": "number",
+      "CurveSize1": "number",
+      "Segments": "number",
+      "FaceCamera": "boolean",
+      "Attachment0": "Attachment",
+      "Attachment1": "Attachment",
+      "Color": "Color3",
+      "Transparency": "number",
+      "Texture": "string",
+      "Enabled": "boolean"
+    }
+  },
+  "Trail": {
+    "node": "MeshInstance3D",
+    "script": "res://addons/rodot/runtime/trail.gd",
+    "members": {
+      "Lifetime": "number",
+      "MinLength": "number",
+      "FadeTail": "boolean",
+      "Attachment0": "Attachment",
+      "Attachment1": "Attachment",
+      "Color": "Color3",
+      "Transparency": "number",
+      "Texture": "string",
+      "Enabled": "boolean"
+    }
+  }
+}
